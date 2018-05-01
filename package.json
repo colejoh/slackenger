@@ -1,0 +1,24 @@
+{
+  "name": "slackenger",
+  "version": "1.0.0",
+  "description": "An app that lets you recieve Facebook messages on Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colejoh/slackenger.git"
+  },
+  "author": "Cole Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colejoh/slackenger/issues"
+  },
+  "homepage": "https://github.com/colejoh/slackenger#readme",
+  "dependencies": {
+    "@slack/client": "^4.2.0",
+    "express": "^4.16.3",
+    "facebook-chat-api": "^1.5.1"
+  }
+}
